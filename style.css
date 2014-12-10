@@ -1,0 +1,122 @@
+/* CSS Document */
+
+body {
+	background-image: url(gambar/background.jpg);
+	font-family:"Times New Roman", sans-serif;
+	background-repeat:no-repeat;
+	background-size:cover;
+	padding: 0px;
+	}
+	
+#main_container { 
+	width: 950px;
+	border-style: solid; 
+	border-width: 0px;
+	box-shadow:0px -3px 7px #FF3300;
+	background-image: url(gambar/background1.jpg);
+	margin: 0 auto;
+	}
+
+#container {
+    width: 100%;
+    }
+
+#header {
+	height: 200px;
+	width:100%;
+	background-image: url(gambar/header.jpg);
+	background-repeat:no-repeat;
+	background-size: cover;
+	}
+	
+#content {
+	float: left;
+	width:70%;
+	background-color:#0E0;
+	border-style:dotted;
+	border-width: thick;
+	border-color:#008800;
+	}
+
+#layer_kanan {
+	background-color:#0C0;
+	width: 28%;
+	float:left;
+	}
+
+.clear {
+    clear: both;
+	}
+
+#margin {	
+	margin-left:20px;
+	margin-right:20px;
+	margin-bottom:20px;
+	text-align:justify;
+	}
+
+#footer {
+ 	width: 100%;
+ 	text-align:center;
+	background: #070;
+  	border-top: 2px solid  #0F6;
+  	text-align:center;
+	box-shadow:0px -3px 7px #FF3300;
+	margin: 0 auto;
+	}
+
+#kotakjam{
+	border-style:dotted;
+	border-width: thick;
+	border-color:white;
+	background-color:silver;
+	text-align:center;
+	}
+	
+/* Menu */
+#layer_menu {
+	float:left;
+	width: 60%;
+ 	height: 47px;
+  	padding-top:2px;
+	}
+
+#layer {
+	float:left;
+	width: 38%;
+ 	height: 47px;
+  	padding-top:2px;
+	}
+
+	
+a {
+	text-decoration: none;
+	}
+	
+#menu {
+	margin: 5px 0 0 5px;
+	padding: 0;
+	list-style: none;
+	}
+	
+#menu li {
+	position: relative;
+	float: left;
+	width: 108px;
+	}
+
+#menu li a {
+	line-height:20px;
+	text-align: center;
+	display: block;
+	padding: 5px 15px 7px 15px;
+	border-radius: 7px;
+	box-shadow:3px 5px 7px #FF3300;
+	color: black;
+	background-color: #0E0;
+	}
+	
+#menu li a:hover {
+	box-shadow:0px -3px 7px #FF3300;
+	}
+	
